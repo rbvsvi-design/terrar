@@ -1,0 +1,2190 @@
+{
+  "format": "PULSE_MAP",
+  "version": 2,
+  "game": "VLESS RUSSIA",
+  "map_name": "VLESS RUSSIA — Москва",
+  "description": "Базовая карта: районы, дороги, дома, квартиры, бизнесы, АЗС, сервисы, фракции и работы.",
+  "server": {
+    "host": "188.127.241.74",
+    "port": 2119
+  },
+  "spawn": {
+    "x": 0,
+    "y": 0,
+    "z": 2,
+    "rotation": 0
+  },
+  "districts": [
+    {
+      "id": "prigorod",
+      "name": "Пригород",
+      "center": {
+        "x": -900,
+        "y": 650
+      }
+    },
+    {
+      "id": "northern",
+      "name": "Северный",
+      "center": {
+        "x": 0,
+        "y": 750
+      }
+    },
+    {
+      "id": "forest",
+      "name": "Лесной",
+      "center": {
+        "x": 850,
+        "y": 700
+      }
+    },
+    {
+      "id": "sleeping",
+      "name": "Спальный район",
+      "center": {
+        "x": -650,
+        "y": 150
+      }
+    },
+    {
+      "id": "center",
+      "name": "Центр",
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "eastern",
+      "name": "Восточный",
+      "center": {
+        "x": 700,
+        "y": 50
+      }
+    },
+    {
+      "id": "western",
+      "name": "Западный",
+      "center": {
+        "x": -700,
+        "y": -100
+      }
+    },
+    {
+      "id": "southern",
+      "name": "Южный",
+      "center": {
+        "x": 100,
+        "y": -650
+      }
+    },
+    {
+      "id": "village",
+      "name": "Деревня",
+      "center": {
+        "x": 1050,
+        "y": -400
+      }
+    },
+    {
+      "id": "airport",
+      "name": "Аэропорт",
+      "center": {
+        "x": -700,
+        "y": -750
+      }
+    },
+    {
+      "id": "port",
+      "name": "Порт",
+      "center": {
+        "x": 500,
+        "y": -1000
+      }
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "type": "district",
+      "name": "Пригород",
+      "position": {
+        "x": -900,
+        "y": 650,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "prigorod"
+      }
+    },
+    {
+      "id": 2,
+      "type": "district",
+      "name": "Северный",
+      "position": {
+        "x": 0,
+        "y": 750,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "northern"
+      }
+    },
+    {
+      "id": 3,
+      "type": "district",
+      "name": "Лесной",
+      "position": {
+        "x": 850,
+        "y": 700,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "forest"
+      }
+    },
+    {
+      "id": 4,
+      "type": "district",
+      "name": "Спальный район",
+      "position": {
+        "x": -650,
+        "y": 150,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "sleeping"
+      }
+    },
+    {
+      "id": 5,
+      "type": "district",
+      "name": "Центр",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "center"
+      }
+    },
+    {
+      "id": 6,
+      "type": "district",
+      "name": "Восточный",
+      "position": {
+        "x": 700,
+        "y": 50,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "eastern"
+      }
+    },
+    {
+      "id": 7,
+      "type": "district",
+      "name": "Западный",
+      "position": {
+        "x": -700,
+        "y": -100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "western"
+      }
+    },
+    {
+      "id": 8,
+      "type": "district",
+      "name": "Южный",
+      "position": {
+        "x": 100,
+        "y": -650,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "southern"
+      }
+    },
+    {
+      "id": 9,
+      "type": "district",
+      "name": "Деревня",
+      "position": {
+        "x": 1050,
+        "y": -400,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "village"
+      }
+    },
+    {
+      "id": 10,
+      "type": "district",
+      "name": "Аэропорт",
+      "position": {
+        "x": -700,
+        "y": -750,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "airport"
+      }
+    },
+    {
+      "id": 11,
+      "type": "district",
+      "name": "Порт",
+      "position": {
+        "x": 500,
+        "y": -1000,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "key": "port"
+      }
+    },
+    {
+      "id": 12,
+      "type": "road_straight",
+      "name": "Северная магистраль",
+      "position": {
+        "x": 0,
+        "y": 700,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 13,
+      "type": "road_straight",
+      "name": "Центральная магистраль",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 14,
+      "type": "road_straight",
+      "name": "Южная магистраль",
+      "position": {
+        "x": 0,
+        "y": -650,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 15,
+      "type": "road_straight",
+      "name": "Западная магистраль",
+      "position": {
+        "x": -700,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 16,
+      "type": "road_straight",
+      "name": "Восточная магистраль",
+      "position": {
+        "x": 700,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 17,
+      "type": "road_straight",
+      "name": "Дорога к аэропорту",
+      "position": {
+        "x": -700,
+        "y": -500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 18,
+      "type": "road_straight",
+      "name": "Дорога к порту",
+      "position": {
+        "x": 500,
+        "y": -800,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 19,
+      "type": "road_straight",
+      "name": "Дорога в пригород",
+      "position": {
+        "x": -650,
+        "y": 500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 45
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 20,
+      "type": "road_straight",
+      "name": "Дорога в лес",
+      "position": {
+        "x": 650,
+        "y": 600,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 45
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 21,
+      "type": "road_straight",
+      "name": "Дорога в деревню",
+      "position": {
+        "x": 850,
+        "y": -350,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 20
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "lanes": 4,
+        "speed_limit": 60
+      }
+    },
+    {
+      "id": 22,
+      "type": "road_intersection_4way",
+      "name": "Центральный перекрёсток",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "traffic_lights": true
+      }
+    },
+    {
+      "id": 23,
+      "type": "road_intersection_4way",
+      "name": "Западный перекрёсток",
+      "position": {
+        "x": -700,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "traffic_lights": true
+      }
+    },
+    {
+      "id": 24,
+      "type": "road_intersection_4way",
+      "name": "Восточный перекрёсток",
+      "position": {
+        "x": 700,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "traffic_lights": true
+      }
+    },
+    {
+      "id": 25,
+      "type": "road_intersection_4way",
+      "name": "Северный перекрёсток",
+      "position": {
+        "x": 0,
+        "y": 700,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "traffic_lights": true
+      }
+    },
+    {
+      "id": 26,
+      "type": "road_intersection_4way",
+      "name": "Южный перекрёсток",
+      "position": {
+        "x": 0,
+        "y": -650,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "traffic_lights": true
+      }
+    },
+    {
+      "id": 27,
+      "type": "house",
+      "name": "Жилой дом №1",
+      "position": {
+        "x": -600,
+        "y": 250,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 28,
+      "type": "apartment_entrance",
+      "name": "Квартиры №1",
+      "position": {
+        "x": -588,
+        "y": 255,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 29,
+      "type": "house",
+      "name": "Жилой дом №2",
+      "position": {
+        "x": -450,
+        "y": 300,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 30,
+      "type": "apartment_entrance",
+      "name": "Квартиры №2",
+      "position": {
+        "x": -438,
+        "y": 305,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 31,
+      "type": "house",
+      "name": "Жилой дом №3",
+      "position": {
+        "x": -300,
+        "y": 260,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 32,
+      "type": "apartment_entrance",
+      "name": "Квартиры №3",
+      "position": {
+        "x": -288,
+        "y": 265,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 33,
+      "type": "house",
+      "name": "Жилой дом №4",
+      "position": {
+        "x": -550,
+        "y": 100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 34,
+      "type": "apartment_entrance",
+      "name": "Квартиры №4",
+      "position": {
+        "x": -538,
+        "y": 105,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 35,
+      "type": "house",
+      "name": "Жилой дом №5",
+      "position": {
+        "x": -350,
+        "y": 100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 36,
+      "type": "apartment_entrance",
+      "name": "Квартиры №5",
+      "position": {
+        "x": -338,
+        "y": 105,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 37,
+      "type": "house",
+      "name": "Жилой дом №6",
+      "position": {
+        "x": 300,
+        "y": 250,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 38,
+      "type": "apartment_entrance",
+      "name": "Квартиры №6",
+      "position": {
+        "x": 312,
+        "y": 255,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 39,
+      "type": "house",
+      "name": "Жилой дом №7",
+      "position": {
+        "x": 500,
+        "y": 250,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 40,
+      "type": "apartment_entrance",
+      "name": "Квартиры №7",
+      "position": {
+        "x": 512,
+        "y": 255,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 41,
+      "type": "house",
+      "name": "Жилой дом №8",
+      "position": {
+        "x": 550,
+        "y": 100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 42,
+      "type": "apartment_entrance",
+      "name": "Квартиры №8",
+      "position": {
+        "x": 562,
+        "y": 105,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 43,
+      "type": "house",
+      "name": "Жилой дом №9",
+      "position": {
+        "x": 350,
+        "y": -250,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 44,
+      "type": "apartment_entrance",
+      "name": "Квартиры №9",
+      "position": {
+        "x": 362,
+        "y": -245,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 45,
+      "type": "house",
+      "name": "Жилой дом №10",
+      "position": {
+        "x": 150,
+        "y": -350,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 46,
+      "type": "apartment_entrance",
+      "name": "Квартиры №10",
+      "position": {
+        "x": 162,
+        "y": -345,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 47,
+      "type": "house",
+      "name": "Жилой дом №11",
+      "position": {
+        "x": -300,
+        "y": -300,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "apartments": 12,
+        "sale": true
+      }
+    },
+    {
+      "id": 48,
+      "type": "apartment_entrance",
+      "name": "Квартиры №11",
+      "position": {
+        "x": -288,
+        "y": -295,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "count": 12
+      }
+    },
+    {
+      "id": 49,
+      "type": "shop",
+      "name": "Продуктовый магазин №1",
+      "position": {
+        "x": -450,
+        "y": 40,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 50,
+      "type": "shop",
+      "name": "Супермаркет «Пульс»",
+      "position": {
+        "x": 250,
+        "y": 120,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 51,
+      "type": "clothing_store",
+      "name": "Магазин одежды",
+      "position": {
+        "x": 400,
+        "y": -50,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 52,
+      "type": "weapon_shop",
+      "name": "Оружейный магазин",
+      "position": {
+        "x": 520,
+        "y": 80,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 53,
+      "type": "restaurant",
+      "name": "Ресторан",
+      "position": {
+        "x": 100,
+        "y": 180,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 54,
+      "type": "cafe",
+      "name": "Кафе",
+      "position": {
+        "x": 180,
+        "y": -120,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 55,
+      "type": "hotel",
+      "name": "Отель «Пульс»",
+      "position": {
+        "x": 350,
+        "y": -450,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 56,
+      "type": "bank",
+      "name": "Банк",
+      "position": {
+        "x": 80,
+        "y": 80,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 57,
+      "type": "government",
+      "name": "Государственное учреждение",
+      "position": {
+        "x": -80,
+        "y": 120,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true,
+        "owner": null,
+        "price": 1000000
+      }
+    },
+    {
+      "id": 58,
+      "type": "gas_station",
+      "name": "АЗС №1",
+      "position": {
+        "x": -500,
+        "y": -100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "fuel_types": [
+          "ai92",
+          "ai95",
+          "ai98",
+          "diesel"
+        ],
+        "business": true
+      }
+    },
+    {
+      "id": 59,
+      "type": "gas_station",
+      "name": "АЗС №2",
+      "position": {
+        "x": 500,
+        "y": 350,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "fuel_types": [
+          "ai92",
+          "ai95",
+          "ai98",
+          "diesel"
+        ],
+        "business": true
+      }
+    },
+    {
+      "id": 60,
+      "type": "gas_station",
+      "name": "АЗС №3",
+      "position": {
+        "x": -200,
+        "y": -600,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "fuel_types": [
+          "ai92",
+          "ai95",
+          "ai98",
+          "diesel"
+        ],
+        "business": true
+      }
+    },
+    {
+      "id": 61,
+      "type": "gas_station",
+      "name": "АЗС №4",
+      "position": {
+        "x": 800,
+        "y": -100,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "fuel_types": [
+          "ai92",
+          "ai95",
+          "ai98",
+          "diesel"
+        ],
+        "business": true
+      }
+    },
+    {
+      "id": 62,
+      "type": "gas_station",
+      "name": "АЗС №5",
+      "position": {
+        "x": 300,
+        "y": -850,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "fuel_types": [
+          "ai92",
+          "ai95",
+          "ai98",
+          "diesel"
+        ],
+        "business": true
+      }
+    },
+    {
+      "id": 63,
+      "type": "tech_center",
+      "name": "Техцентр",
+      "position": {
+        "x": 450,
+        "y": -180,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true
+      }
+    },
+    {
+      "id": 64,
+      "type": "tire_service",
+      "name": "Шиномонтаж",
+      "position": {
+        "x": 520,
+        "y": -220,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true
+      }
+    },
+    {
+      "id": 65,
+      "type": "styling_center",
+      "name": "Стайлинг-центр",
+      "position": {
+        "x": 580,
+        "y": -180,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true
+      }
+    },
+    {
+      "id": 66,
+      "type": "used_car_market",
+      "name": "БУ-рынок",
+      "position": {
+        "x": -350,
+        "y": -500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true
+      }
+    },
+    {
+      "id": 67,
+      "type": "auction",
+      "name": "Автоаукцион",
+      "position": {
+        "x": -100,
+        "y": -500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": true
+      }
+    },
+    {
+      "id": 68,
+      "type": "tk",
+      "name": "ТК — транспортная компания",
+      "position": {
+        "x": -500,
+        "y": 500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 69,
+      "type": "sk",
+      "name": "СК — строительная компания",
+      "position": {
+        "x": 650,
+        "y": -300,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 70,
+      "type": "hospital",
+      "name": "Больница",
+      "position": {
+        "x": 300,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 71,
+      "type": "police",
+      "name": "Полицейский участок",
+      "position": {
+        "x": -200,
+        "y": 150,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 72,
+      "type": "fire_station",
+      "name": "Пожарная часть",
+      "position": {
+        "x": 800,
+        "y": -500,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 73,
+      "type": "bus_station",
+      "name": "Автобусная станция",
+      "position": {
+        "x": -800,
+        "y": -50,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 74,
+      "type": "airport",
+      "name": "Аэропорт",
+      "position": {
+        "x": -700,
+        "y": -800,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    },
+    {
+      "id": 75,
+      "type": "port",
+      "name": "Порт",
+      "position": {
+        "x": 500,
+        "y": -1000,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "interior": 0,
+      "dimension": 0,
+      "metadata": {
+        "business": false
+      }
+    }
+  ],
+  "factions": [
+    {
+      "id": 1,
+      "name": "Полиция",
+      "spawn": [
+        -200,
+        150,
+        1
+      ],
+      "ranks": 10
+    },
+    {
+      "id": 2,
+      "name": "Медицинская служба",
+      "spawn": [
+        300,
+        0,
+        1
+      ],
+      "ranks": 8
+    },
+    {
+      "id": 3,
+      "name": "МЧС",
+      "spawn": [
+        800,
+        -500,
+        1
+      ],
+      "ranks": 8
+    },
+    {
+      "id": 4,
+      "name": "ТК",
+      "spawn": [
+        -500,
+        500,
+        1
+      ],
+      "ranks": 8
+    },
+    {
+      "id": 5,
+      "name": "СК",
+      "spawn": [
+        650,
+        -300,
+        1
+      ],
+      "ranks": 8
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "name": "Лётчик-испытатель",
+      "type": "test_pilot",
+      "start": [
+        -700,
+        -800,
+        5
+      ],
+      "salary": 25000
+    },
+    {
+      "id": 2,
+      "name": "Пилот",
+      "type": "pilot",
+      "start": [
+        -700,
+        -800,
+        5
+      ],
+      "salary": 18000
+    },
+    {
+      "id": 3,
+      "name": "Водитель автобуса",
+      "type": "bus_driver",
+      "start": [
+        -800,
+        -50,
+        1
+      ],
+      "salary": 9000
+    },
+    {
+      "id": 4,
+      "name": "Дальнобойщик",
+      "type": "truck_driver",
+      "start": [
+        -500,
+        500,
+        1
+      ],
+      "salary": 15000
+    },
+    {
+      "id": 5,
+      "name": "Таксист",
+      "type": "taxi_driver",
+      "start": [
+        0,
+        0,
+        1
+      ],
+      "salary": 12000
+    },
+    {
+      "id": 6,
+      "name": "Механик",
+      "type": "mechanic",
+      "start": [
+        450,
+        -180,
+        1
+      ],
+      "salary": 11000
+    }
+  ],
+  "systems": {
+    "businesses": true,
+    "apartments": true,
+    "vehicles": true,
+    "fuel": true,
+    "repair": true,
+    "tuning": true,
+    "used_car_market": true,
+    "auction": true,
+    "tk": true,
+    "sk": true,
+    "missions": true,
+    "npcs": true,
+    "markers": true,
+    "test_mode": true,
+    "editor_mode": true
+  }
+}
